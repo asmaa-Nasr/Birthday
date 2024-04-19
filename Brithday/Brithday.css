@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+    background-color:#fff;
+}
+.logo{
+    text-decoration: none;
+    font-size: 1.8em;
+    font-weight: 700;
+    color: black;
+}
+.navigation a{
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
+    position: relative;
+}
+.navigation a:hover{
+  color:#e5705f;
+}
+section{
+    padding: 100px 200px;
+    background-color: #fff;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color:black;
+    background: url(photo_BD4.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home h3{
+    color: #e5705f;
+    text-transform: uppercase;
+}
